@@ -1,0 +1,34 @@
+.prod{
+    width: 100px;
+    height: 80px;
+    border: 2 px solid black;
+    -webkit-box-shadow: 7px 7px 6px 8px rgba(0,0,0,0.51);
+    -moz-box-shadow: 7px 7px 6px 8px rgba(0,0,0,0.51);
+    box-shadow: 7px 7px 6px 8px rgba(0,0,0,0.51);
+}
+.prod:hover{
+    -webkit-box-shadow: 8px 10px 20px 12px rgba(0,0,0,0.54);
+-moz-box-shadow: 8px 10px 20px 12px rgba(0,0,0,0.54);
+box-shadow: 8px 10px 20px 12px rgba(0,0,0,0.54);
+}
+
+
+#olla{
+    width: 400px;
+    height: 300px;
+    background: url("../img/olla1.jpg");
+    display: block;
+    border: 2 px solid black;
+    -webkit-box-shadow: 7px 7px 6px 8px rgba(0,0,0,0.51);
+    -moz-box-shadow: 7px 7px 6px 8px rgba(0,0,0,0.51);
+    box-shadow: 7px 7px 6px 8px rgba(0,0,0,0.51);
+
+}
+
+#olla:hover{
+  
+  background: url("../img/olla2.jpg");
+  -webkit-box-shadow: 8px 10px 20px 12px rgba(0,0,0,0.54);
+-moz-box-shadow: 8px 10px 20px 12px rgba(0,0,0,0.54);
+box-shadow: 8px 10px 20px 12px rgba(0,0,0,0.54);
+}

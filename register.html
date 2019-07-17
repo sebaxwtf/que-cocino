@@ -1,7 +1,10 @@
 <!doctype html>
 <html>
+    <!-- pagina orientada al registro del usuario-->
 
 <head>
+    <!--etquetas que ayudan a saber de la pagina(titulo), mejoran 
+responsividad y linkean estilos css necesarios. -->
     <meta charset="utf-8" />
 	
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -50,12 +53,11 @@
                         <br>
                         <p align="center" class="font-1">¡Regístrate!</p>
                                 
-
-                                <form action="sesion_reg.php" method="POST" class="register-form">
-                                    <input type="text" class="form-control" placeholder="Rut" name="run">
+<!-- formulario, que permite registrar al usuario a travez del action="controladorreg.php" que valida los datos,
+verificando si existe ya y sino en el caso de estar todo bien este lo regitra dentro de la base de datos.-->
+                                <form action="controladorreg.php" method="POST" class="register-form">
+                                    <input type="email" class="form-control" placeholder="Correo" name="corr">
                                    <input type="text" class="form-control" placeholder="Nombre" name="name">
-                                   <input type="text" class="form-control" placeholder="apellido paterno" name="app">
-                                   <input type="text" class="form-control" placeholder="apellido materno" name="apm">
                                     <input type="password" class="form-control" placeholder="Contraseña" name="passta">
 
 
